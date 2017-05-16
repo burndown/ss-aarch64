@@ -48,7 +48,7 @@ RUN set -ex && \
     apk del .build-deps && \
     rm -rf /tmp/*
 
-USER nobody
+USER root
 
 EXPOSE $SERVER_PORT/tcp $SERVER_PORT/udp
 
