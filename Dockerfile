@@ -2,7 +2,7 @@
 # Dockerfile for shadowsocks-libev
 #
 
-FROM aarch64/alpine
+FROM alpine
 MAINTAINER burndown <burndown@gmail.com>
 
 ARG SS_VER=3.0.5
