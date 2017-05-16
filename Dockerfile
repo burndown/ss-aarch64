@@ -66,7 +66,7 @@ CMD ss-redir -s $SERVER_ADDR \
               -m $METHOD \
               -t $TIMEOUT \
               -l $Local_dns_port
-              -L $DNS_ADDR:53\
+              -L $DNS_ADDR\
               -u
 
 
