@@ -60,7 +60,7 @@ CMD ss-redir -s $SERVER_ADDR \
               -l $Local_port\
               -u
               
-    ss-tunnel -s $SERVER_ADDR \
+ CMD ss-tunnel -s $SERVER_ADDR \
               -p $SERVER_PORT \
               -k ${PASSWORD:-$(hostname)} \
               -m $METHOD \
