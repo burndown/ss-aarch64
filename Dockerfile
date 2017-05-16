@@ -59,14 +59,5 @@ CMD ss-redir -s $SERVER_ADDR \
               -t $TIMEOUT \
               -l $Local_port\
               -u
-              
- CMD ss-tunnel -s $SERVER_ADDR \
-              -p $SERVER_PORT \
-              -k ${PASSWORD:-$(hostname)} \
-              -m $METHOD \
-              -t $TIMEOUT \
-              -l $Local_dns_port
-              -L $DNS_ADDR \
-              -u
 
 
