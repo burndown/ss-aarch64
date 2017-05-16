@@ -31,6 +31,7 @@ RUN set -ex && \
                                 mbedtls-dev \
                                 pcre-dev \
                                 tar \
+                                supervisor \
                                 udns-dev && \
     cd /tmp && \
     curl -sSL $SS_URL | tar xz --strip 1 && \
